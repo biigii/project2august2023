@@ -1,63 +1,70 @@
-/* ======== */
-/* we use class and id */
-/* ======== */
-
-/* p {
+/* #heading {
   color: yellow;
-  background-color: green;
 } */
+/* id class type */
+/* 0 0 0 */
 
-/* type selector */
-/* p {
-  color: red
-} */
-
-/* class selector */
-.first {
-  color: yellow;
-  background-color: purple;
-}
-
-.second-one {
+/* 0 1 1*/
+h1.heading {
   color: red;
-  background-color: blue;
 }
 
-.second {
+/* 0 1 0 */
+.heading {
+  color: blue;
+  color: red;
+}
+
+/* 0 0 1 */
+h1 {
   color: orange;
-  background-color: grey;
 }
 
-.one {
-  text-transform: uppercase;
+/* 1 1 1  */
+h1.heading#heading {
+  color: lightblue
 }
 
-.btn-1 {
-  background-color: red;
-}
-
-/* #btn-1 {} */
-
-.btn-2 {
-  background-color: blue;
-}
-
-.btn-3 {
-  background-color: green;
-}
-
-.btn {
-  color: white;
-  text-transform: uppercase;
-  /* you will add border and border radius and width and height here */
-}
-
-#some-id {
-  color: red;
-  background-color: yellow;
-  text-transform: uppercase;
-}
-
+/* 1 0 0 */
 #heading {
-  background-color: lightgreen;
+  color: brown;
 }
+
+/* 1 0 1  */
+h1#heading {
+  color: pink;
+}
+
+
+
+
+
+
+
+/* h1.heading {
+  background-color: orange;
+} */
+
+/* h1#heading {
+  background-color: purple;
+} */
+
+/* p.danger {
+  background-color: red;
+} */
+
+/* find a <p> which has the class of success */
+/* p.success {
+  color: green;
+} */
+
+
+
+
+
+
+
+
+
+
+
