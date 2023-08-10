@@ -1,14 +1,63 @@
-body {
-  background-color: lightgrey;
-}
+/* ======== */
+/* we use class and id */
+/* ======== */
 
-h1 {
-  text-align: center;
-  color: red;
+/* p {
+  color: yellow;
+  background-color: green;
+} */
+
+/* type selector */
+/* p {
+  color: red
+} */
+
+/* class selector */
+.first {
+  color: yellow;
   background-color: purple;
 }
 
-p {
-  background-color: blueviolet;
+.second-one {
+  color: red;
+  background-color: blue;
+}
+
+.second {
+  color: orange;
+  background-color: grey;
+}
+
+.one {
+  text-transform: uppercase;
+}
+
+.btn-1 {
+  background-color: red;
+}
+
+/* #btn-1 {} */
+
+.btn-2 {
+  background-color: blue;
+}
+
+.btn-3 {
+  background-color: green;
+}
+
+.btn {
   color: white;
+  text-transform: uppercase;
+  /* you will add border and border radius and width and height here */
+}
+
+#some-id {
+  color: red;
+  background-color: yellow;
+  text-transform: uppercase;
+}
+
+#heading {
+  background-color: lightgreen;
 }
